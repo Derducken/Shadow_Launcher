@@ -6,3 +6,7 @@ This was a personal project, scripted in AHK, up until SloopyMeat agreed to help
 So, here it is.
 
 Use it :-)
+
+...well, not really. It still uses hardcoded values for my personal use, so you'll either have to tweak it yourself, or wait for our next updates.
+
+I'd suggest a bit of waiting. It sucks as it is.
