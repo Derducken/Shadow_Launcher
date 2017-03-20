@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #323c64;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#header {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+  #header h1, #header h2 {
+    font-weight: 700;
+    width: 48%;
+    margin: 0;
+    padding: 1%;
+    display: block; }
+  #header h1 {
+    font-size: 1.5em;
+    float: left;
+    text-align: left; }
+  #header h2 {
+    font-size: 1.2em;
+    float: right;
+    text-align: right; }
+
+#main {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative; }
+  #main .launcher {
+    float: left;
+    margin: 1%;
+    padding: 0;
+    width: 23%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    transition-property: box-shadow;
+    transition-duration: 0.2s; }
+    #main .launcher .title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 98%;
+      padding: 1%;
+      margin-top: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      font-weight: 400;
+      font-size: 1.1em;
+      text-align: center;
+      z-index: 2;
+      color: rgba(255, 255, 255, 0.5);
+      transition-property: padding, margin, color, background-color;
+      transition-duration: 0.2s; }
+    #main .launcher .background_image {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-size: cover;
+      background-position: center center;
+      z-index: 1; }
+    #main .launcher:hover {
+      box-shadow: 0px 12px 40px 5px rgba(0, 0, 0, 0.9);
+      cursor: pointer; }
+      #main .launcher:hover .title {
+        background-color: rgba(0, 0, 0, 0.85);
+        color: white;
+        margin-top: 5%;
+        padding: 2% 1%; }
+  #main .launcher_1 .background_image {
+    background-image: url("AppLauncher_images/Advent_Rising.jpg"); }
+  #main .launcher_2 .background_image {
+    background-image: url("AppLauncher_images/Alan_Wake's_American_Nightmare.jpg"); }
+  #main .launcher_3 .background_image {
+    background-image: url("AppLauncher_images/Amnesia_The_Dark_Descent.jpg"); }
+  #main .launcher_4 .background_image {
+    background-image: url("AppLauncher_images/amplitude.jpg"); }
+  #main .launcher_5 .background_image {
+    background-image: url("AppLauncher_images/Anachronox.jpg"); }
+  #main .launcher_6 .background_image {
+    background-image: url("AppLauncher_images/Apotheon.jpg"); }
+  #main .launcher_7 .background_image {
+    background-image: url("AppLauncher_images/Bastion.jpg"); }
+  #main .launcher_8 .background_image {
+    background-image: url("AppLauncher_images/Bionic_Commando.jpg"); }
+  #main .launcher_9 .background_image {
+    background-image: url("AppLauncher_images/BioShock_2.jpg"); }
+  #main .launcher_10 .background_image {
+    background-image: url("AppLauncher_images/Bit_Trip_Runner.jpg"); }
+  #main .launcher_11 .background_image {
+    background-image: url("AppLauncher_images/burnout 2.jpg"); }
+  #main .launcher_12 .background_image {
+    background-image: url("AppLauncher_images/burnout 3.jpg"); }
+  #main .launcher_13 .background_image {
+    background-image: url("AppLauncher_images/Call_of_Duty_2.jpg"); }
+  #main .launcher_14 .background_image {
+    background-image: url("AppLauncher_images/Cold_Fear.jpg"); }
+  #main .launcher_15 .background_image {
+    background-image: url("AppLauncher_images/Command-and-conquer-95.jpg"); }
+  #main .launcher_16 .background_image {
+    background-image: url("AppLauncher_images/Condemned_Criminal_Origins.jpg"); }
+  #main .launcher_17 .background_image {
+    background-image: url("AppLauncher_images/Dishonored.jpg"); }
+  #main .launcher_18 .background_image {
+    background-image: url("AppLauncher_images/Dungeon_of_the_Endless.jpg"); }
+  #main .launcher_19 .background_image {
+    background-image: url("AppLauncher_images/Far_Cry_2.jpg"); }
+  #main .launcher_20 .background_image {
+    background-image: url("AppLauncher_images/fatal frame 2.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

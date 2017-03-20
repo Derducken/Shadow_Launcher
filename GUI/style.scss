@@ -1,0 +1,231 @@
+//-------------------------------( Reset CSS )---------
+@import "reset";
+
+//---------------------------( GUI variables )---------
+//colors:
+$color_main: rgba(255,255,255,1);
+$color_back: rgba(50,60,100,1);
+$color_accent: rgba(200,100,110,1);
+$color_entry_background: rgba(255,255,255,0.9);
+$glass: rgba(0,0,0,0.5);
+$dark_glass: rgba(0,0,0,0.85);
+
+//--------------------------------( Main Stuff )-------
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: $color_back;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#header {
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: $glass;
+	color: $color_main;
+
+	h1, h2 {
+		font-weight: 700;
+		width: 48%;
+		margin: 0;
+		padding: 1%;
+		display: block;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		float: left;
+		text-align: left;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		float: right;
+		text-align: right;
+	}
+}
+#main {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+
+	.launcher {
+		float: left;
+		margin: 1%;
+		padding: 0;
+		width: 23%;
+		height: 250px;
+		background-color: $color_entry_background;
+		position: relative;
+		box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+		transition-property: box-shadow;
+		transition-duration: 0.2s;
+
+		.title {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 98%;
+			padding: 1%;
+			margin-top: 0;
+			background-color: $glass;
+			font-weight: 400;
+			font-size: 1.1em;
+			text-align: center;
+			z-index: 2;
+			color: transparentize($color_main, 0.5);
+			transition-property: padding, margin, color, background-color;
+			transition-duration: 0.2s;
+		}
+
+		.background_image {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			background-size: cover;
+			background-position: center center;
+			z-index: 1;
+		}
+
+		&:hover {
+			box-shadow: 0px 12px 40px 5px rgba(0,0,0,0.9);
+			cursor: pointer;
+
+			.title {
+				background-color: $dark_glass;
+				color: $color_main;
+				margin-top: 5%;
+				padding: 2% 1%;
+			}
+		}
+	}
+
+	.launcher_1 {
+		.background_image {
+			background-image: url("AppLauncher_images/Advent_Rising.jpg");
+		}
+	}
+
+	.launcher_2 {
+		.background_image {
+			background-image: url("AppLauncher_images/Alan_Wake's_American_Nightmare.jpg");
+		}
+	}
+
+	.launcher_3 {
+		.background_image {
+			background-image: url("AppLauncher_images/Amnesia_The_Dark_Descent.jpg");
+		}
+	}
+
+	.launcher_4 {
+		.background_image {
+			background-image: url("AppLauncher_images/amplitude.jpg");
+		}
+	}
+
+	.launcher_5 {
+		.background_image {
+			background-image: url("AppLauncher_images/Anachronox.jpg");
+		}
+	}
+
+	.launcher_6 {
+		.background_image {
+			background-image: url("AppLauncher_images/Apotheon.jpg");
+		}
+	}
+
+	.launcher_7 {
+		.background_image {
+			background-image: url("AppLauncher_images/Bastion.jpg");
+		}
+	}
+
+	.launcher_8 {
+		.background_image {
+			background-image: url("AppLauncher_images/Bionic_Commando.jpg");
+		}
+	}
+
+	.launcher_9 {
+		.background_image {
+			background-image: url("AppLauncher_images/BioShock_2.jpg");
+		}
+	}
+
+	.launcher_10 {
+		.background_image {
+			background-image: url("AppLauncher_images/Bit_Trip_Runner.jpg");
+		}
+	}
+
+	.launcher_11 {
+		.background_image {
+			background-image: url("AppLauncher_images/burnout 2.jpg");
+		}
+	}
+
+	.launcher_12 {
+		.background_image {
+			background-image: url("AppLauncher_images/burnout 3.jpg");
+		}
+	}
+
+	.launcher_13 {
+		.background_image {
+			background-image: url("AppLauncher_images/Call_of_Duty_2.jpg");
+		}
+	}
+
+	.launcher_14 {
+		.background_image {
+			background-image: url("AppLauncher_images/Cold_Fear.jpg");
+		}
+	}
+
+	.launcher_15 {
+		.background_image {
+			background-image: url("AppLauncher_images/Command-and-conquer-95.jpg");
+		}
+	}
+
+	.launcher_16 {
+		.background_image {
+			background-image: url("AppLauncher_images/Condemned_Criminal_Origins.jpg");
+		}
+	}
+
+	.launcher_17 {
+		.background_image {
+			background-image: url("AppLauncher_images/Dishonored.jpg");
+		}
+	}
+
+	.launcher_18 {
+		.background_image {
+			background-image: url("AppLauncher_images/Dungeon_of_the_Endless.jpg");
+		}
+	}
+
+	.launcher_19 {
+		.background_image {
+			background-image: url("AppLauncher_images/Far_Cry_2.jpg");
+		}
+	}
+
+	.launcher_20 {
+		.background_image {
+			background-image: url("AppLauncher_images/fatal frame 2.jpg");
+		}
+	}
+}
+#menu {}
+#showcase {}
+#footer {}
