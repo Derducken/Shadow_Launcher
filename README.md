@@ -17,3 +17,5 @@ Since I managed to actually start working on this, it's time to start giving cre
 Shadow Launcher uses bits and bytes from:
 
 Eric Meyer's CSS Reset (http://meyerweb.com/eric/tools/css/reset/)
+
+...as well as some images, mainly from game covers, for demonstrational purposes. All rights belong to their respective owners.
