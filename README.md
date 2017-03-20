@@ -10,3 +10,10 @@ Use it :-)
 ...well, not really. It still uses hardcoded values for my personal use, so you'll either have to tweak it yourself, or wait for our next updates.
 
 I'd suggest a bit of waiting. It sucks as it is.
+
+UPDATE:
+Since I managed to actually start working on this, it's time to start giving credit where credit's due. so...
+
+Shadow Launcher uses bits and bytes from:
+
+Eric Meyer's CSS Reset (http://meyerweb.com/eric/tools/css/reset/)
