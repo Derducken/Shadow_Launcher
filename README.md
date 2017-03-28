@@ -3,19 +3,15 @@
 
 This was a personal project, scripted in AHK, up until SloopyMeat agreed to help turn it into a "proper app others could use".
 
-So, here it is.
+Although the AHK files you see here were created for personal use, and hence contain hardcoded values, feel free to tweak them for your own use until Shadow Launcher turns into a proper program anyone could actually use.
 
-Use it :-)
 
-...well, not really. It still uses hardcoded values for my personal use, so you'll either have to tweak it yourself, or wait for our next updates.
+### Latest progress:
+The basic front-end is almost finished. Now it's time to turn my attention to the settings screens.
 
-I'd suggest a bit of waiting. It sucks as it is.
 
-UPDATE:
-Since I managed to actually start working on this, it's time to start giving credit where credit's due. so...
 
-Shadow Launcher uses bits and bytes from:
-
+### Shadow Launcher uses bits and bytes from:
 Eric Meyer's CSS Reset (http://meyerweb.com/eric/tools/css/reset/)
 
 ...as well as some images, mainly from game covers, for demonstrational purposes. All rights belong to their respective owners.
